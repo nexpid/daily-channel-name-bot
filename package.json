@@ -1,0 +1,17 @@
+{
+  "name": "daily-channel-name-bot",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@discordjs/core": "^1.0.1",
+    "@discordjs/rest": "^2.0.1",
+    "@discordjs/ws": "^1.0.1",
+    "croner": "^7.0.1"
+  }
+}
